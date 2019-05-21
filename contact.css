@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap');
+
 .section-contact{
 margin: 0 auto;
 
@@ -13,10 +15,38 @@ margin: 0 auto;
     width: 50%;
     padding-left: 15%;
 }
-
+.contact-info > h2 {
+    font-family: 'Montserrat';
+color: #000;
+letter-spacing: 8px;
+margin-bottom: 15px;
+text-transform: uppercase;
+font-size: 28px
+}
+strong{
+    font-weight: 700 !important;
+}
+.info > h3{
+    font-size: 20px !important;
+}
+.info > a{
+    font-family: 'Bludhaven' !important;
+    text-transform: none !important;
+    letter-spacing: 0.1px !important;
+    text-decoration: none;
+    color: #BF5C82;
+}
 .contact-img{
     width: 100%;
 }
 .container-img1{
 width: 50%;
+}
+.headline{
+    font-size: 12px;
+font-weight: bold;
+font-family: 'Montserrat';
+letter-spacing: 3.5px;
+text-transform: uppercase;
+color: #000;
 }
