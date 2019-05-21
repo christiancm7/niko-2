@@ -1,0 +1,62 @@
+@import url(https://fonts.googleapis.com/css?family=Muli);
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* background-color: #24252A; */
+}
+html { 
+    background: url(assets/img/hero-1.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+/* Navbar Start */
+.masthead-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex: 1 0 30vw;
+  }
+  .menu li {
+    margin: 0 1rem;
+    font-family: 'Muli', Arial, sans-serif;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    line-height: 1em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black !important;
+  }
+  .menu > li > a {
+      color: black;
+      
+  }
+  .menu > li > a:hover{
+    border-bottom: 2px solid black;
+    
+}
+
+  .menu-1 {
+    justify-content: flex-end;
+  }
+  
+  .logo {
+    flex: 0 1 20vw;
+    text-align: center;
+  }
+  .logo img {
+    width: 100px;
+  }
+  /* Navbar End */
+
