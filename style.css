@@ -59,4 +59,8 @@ html {
     width: 100px;
   }
   /* Navbar End */
+  /* Main Content */
+  .full-vh {
+      height: 85vh;
+  }
 
