@@ -7,17 +7,13 @@
     padding: 0;
     /* background-color: #24252A; */
 }
-html { 
-    background: url(assets/img/hero-1.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
 /* Navbar Start */
+header{
+    margin-bottom: 2.5%;
+}
 .masthead-inner {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
   }
   
@@ -27,6 +23,7 @@ html {
     margin: 0;
     display: flex;
     flex: 1 0 30vw;
+    
   }
   .menu li {
     margin: 0 1rem;
@@ -67,10 +64,13 @@ html {
   footer, .page-footer {
       background-color: white !important;
       color: black !important;
+      opacity: .8;
+
   }
   footer > div {
     color: black !important;
     background-color: white !important;
+    
   }
   .right{
       text-decoration: none !important;
