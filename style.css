@@ -63,4 +63,17 @@ html {
   .full-vh {
       height: 85vh;
   }
+  /* Footer Start */
+  footer, .page-footer {
+      background-color: white !important;
+      color: black !important;
+  }
+  footer > div {
+    color: black !important;
+    background-color: white !important;
+  }
+  .right{
+      text-decoration: none !important;
+      color: black !important;
+  }
 
